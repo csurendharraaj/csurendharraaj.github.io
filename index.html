@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNAKE VS BLOCKS</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color:blanchedalmond;
+        }
+        canvas{
+            box-shadow: black 20px 10px 50px;
+        }
+        button{
+            margin: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>SNAKE VS BLOCKS</h1>
+    <h1 id="score">0</h1>
+    <p>press ENTER to START the GAME</p>
+    <canvas id="game" height="400px" width="400px"></canvas>
+    <script src="index.js"></script>
+    <button id="playagain" onclick="window.location.reload()">PLAY AGAIN</button>
+    
+    
+</body>
+</html>
